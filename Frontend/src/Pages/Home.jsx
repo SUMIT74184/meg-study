@@ -118,23 +118,20 @@ const Home = () => {
               active: false,
             }}
             codeBlock={`<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <title>My First Webpage</title>
-  </head>
-  <body>
-  </body>
-</html>
-`}
+            <html lang="en">
+              <head>
+                <meta charset="UTF-8">
+                <title>My First Webpage</title>
+              </head>
+              <body>
+              </body>
+            </html>
+            `}
             codeColor={"text-yellow-25"}
           />
         </div>
-
         <ExploreMore />
-
       </div>
-
       {/* code section 2 */}
       <div className='bg-pure-greys-5 text-richblack-700'>
         <div className='homepage_bg h-[310px]'>
